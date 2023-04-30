@@ -1,14 +1,14 @@
 // 4k media guery
 @media (max-width: 2560px) {
- .container {
- width: 50%;
+  .container {
+    width: 50%;
   }
 }
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
   .container {
-  width:80%;
-   }
- }
+    width: 80%;
+  }
+}
 
 // media query header
 
@@ -55,24 +55,22 @@
 // media query main section
 
 @media (max-width: 768px) {
-  
-  .main-section{
+  .main-section {
     .info-section {
+      height: auto;
+      .paragraph {
+        width: 100%;
         height: auto;
-        .paragraph {
-            width: 100%;
-            height: auto;
-          padding: 20px;
-          h2 {
-            margin-top: 20px;
-          }
-          p{
-            margin-top: 10px;
-          }
+        padding: 20px;
+        h2 {
+          margin-top: 20px;
+        }
+        p {
+          margin-top: 10px;
         }
       }
+    }
   }
-  
 }
 
 // media query card section
@@ -89,16 +87,16 @@
 // media query img section
 
 @media (max-width: 768px) {
-  .img-section{
+  .img-section {
     height: 100%;
-    .container{
+    .container {
       flex-direction: column-reverse;
-      .txt-div{
+      .txt-div {
         margin-top: 30px;
         width: 100%;
         text-align: center;
       }
-      .img-div{
+      .img-div {
         width: 100%;
         flex-direction: column;
       }
@@ -108,5 +106,4 @@
 
 // media query footer section
 @media (max-width: 768px) {
-  
 }
