@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+font-family: Roboto-regular;
+background-color: $main-color;
+}
+.container{
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a
+{
+text-decoration: none;
+}
+li
+{
+list-style: none;
+}

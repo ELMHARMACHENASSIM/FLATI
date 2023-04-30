@@ -1,0 +1,57 @@
+header {
+  width: 100%;
+  height: 60px;
+  background-color: $nav-color;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title-nav {
+      display: flex;
+      align-items: center;
+      width: 30%;
+      height: 100%;
+
+      h1 {
+        color: white;
+      }
+    }
+
+    .link-nav {
+      width: 60%;
+      height: 100%;
+
+      ul {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        li {
+          padding: 15px;
+          border-radius: 5px;
+
+          a {
+            font-size: 15px;
+            color: aliceblue;
+          }
+        }
+
+        li:hover {
+          background-color: $blue-color;
+        }
+      }
+    }
+
+    .mobile-nav {
+      display: none;
+      i {
+        color: $wheat-color;
+      }
+    }
+    
+  }
+}

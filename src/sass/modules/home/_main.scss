@@ -1,0 +1,228 @@
+// start main section
+.main-section {
+  .bg-section {
+    background-image: url(../../../../public/img/bg-header.png);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .info-section {
+    width: 100%;
+    height: 250px;
+    background-color: $wheat-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .paragraph {
+      color: #777;
+      font-family: Roboto-thin;
+      text-align: center;
+      p {
+        margin-top: 20px;
+        font-family: Roboto-regular;
+        font-size: 25px;
+      }
+      h2 {
+        line-height: 35px;
+        span:first-child {
+          background-color: $blue-color;
+          color: white;
+          padding: 2px;
+        }
+        span:nth-of-type(2) {
+          color: $blue-color;
+        }
+        span:last-child {
+          color: black;
+          font-family: Roboto-regular;
+        }
+      }
+    }
+  }
+}
+
+// end main section
+
+// start card section
+.card-section {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: $main-color;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .card {
+      background-color: $card-color;
+      padding: 10px;
+      text-align: center;
+      width: 250px;
+      height: 280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .icon {
+        background-color: white;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          color: $blue-color;
+          font-size: 20px;
+        }
+      }
+      .info {
+        h2 {
+          padding-top: 20px;
+          padding-bottom: 10px;
+          font-size: 20px;
+        }
+        span {
+          color: $blue-color;
+        }
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+// end card section
+
+// start img section
+.img-section {
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .txt-div {
+      width: 35%;
+      height: 100%;
+      h1 {
+        font-size: 16px;
+        color: #777;
+      }
+      p {
+        color: #777;
+        margin: 20px 0;
+      }
+
+      a {
+        padding: 15px 10px;
+        color: white;
+        background-color: $blue-color;
+        font-size: 13px;
+      }
+    }
+
+    .img-div {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+      .img-card {
+        background-color: $nav-color;
+
+        .image {
+          width: 100%;
+          img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        .img-info {
+          padding: 10px;
+          text-align: center;
+          h1 {
+            margin: 10px 0;
+            font-family: roboto-thin;
+            font-size: 20px;
+            color: white;
+          }
+          p {
+            font-size: 14px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+// end img section
+
+// start footer section
+footer {
+  margin-top: 40px;
+  width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  background-color: $blue-color;
+  .information {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    text-align: center;
+    width: 60%;
+    h1 {
+      font-family: roboto-thin;
+      letter-spacing: 5px;
+      color: #fff;
+      font-size: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    p {
+
+      padding-bottom: 20px;
+      color: $main-color;
+      font-size: 15px;
+
+    }
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    width: 250px;
+    padding-bottom: 30px;
+
+      }
+.icons i{
+color: #fff;
+opacity: 0.4;
+font-size: 40px;
+}
+  }
+  .copy {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    width: 100%;
+    height: 40px;
+    background-color: $nav-color;
+    span {
+      text-align: center;
+      
+      font-size: 13px;
+    }
+  }
+}
+// end footer section
